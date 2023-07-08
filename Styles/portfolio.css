@@ -88,7 +88,7 @@ main{
 .about {
      padding: 100px;
      background-color: #fef2e9;
-     margin: 80px 0;
+     margin: 100px 0;
 }
 
 .section-title {
@@ -110,4 +110,49 @@ main{
 }
 .about-info{
      text-align: center;
+}
+.second-section{
+     padding: 60px;
+     background-color: #58ef7c;
+     margin: 30px 0;
+     color: rgb(255, 255, 255);
+     font-size: 18px;
+     font-style: italic;
+}
+.skill{
+     border:1px solid #fffdfd;
+     margin: 20px;
+     padding:10px;
+     background-color: white;
+     border-radius: 10px;
+     box-shadow:5px 5px 5px 5px rgb(147, 181, 185);
+}
+.third-section{
+     padding: 60px;
+     background-color: #425457;
+     margin: 30px 0;
+     color: rgb(0, 0, 0);
+     font-size: 18px;
+    
+}
+.skills{
+     color: #fffcfc;
+     text-align: center;
+     padding: 10px;
+     font-size: 30px;
+     text-decoration: underline;
+}
+.imaages{
+     width: 50px;
+     height: 50px;
+}
+.a{
+     width: 70px;
+}
+.skills-container{
+     display: flex;
+   
+}
+.skill-description{
+     padding: 20px;
 }
