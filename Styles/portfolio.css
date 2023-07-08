@@ -1,54 +1,102 @@
 /* Common Fonts Styles */
-body{
+body {
      font-family: 'Open Sans', sans-serif;
 }
+
 /* nav related styles */
-nav{
+nav {
      display: flex;
      justify-content: space-between;
      align-items: center;
      margin: 0 20px 0 120px;
 }
-.btn-primary{
+
+.btn-primary {
      font-size: 20px;
-     border: 0 ;
+     border: 0;
      border-radius: 5px;
      padding: 10px 20px;
      background-color: #ffda06;
      color: rgb(54, 51, 51);
 }
-.Title{
+
+.Title {
      color: #181818;
      font-size: 45px;
      font-weight: 800;
 
 }
-.m{
+
+.m {
      color: rgb(241, 176, 56);
 }
-nav>ul{
+
+nav>ul {
      display: flex;
 
 }
-nav li{list-style: none;
+
+nav li {
+     list-style: none;
      margin: 12px;
-   
+
 }
-nav a{
+
+nav a {
      text-decoration: none;
 }
-.header{
-     background-color:#fef2e9 ;
-     
+
+.header {
+     background-color: #fef2e9;
+     background-image: url("../images/111.png");
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     background-size: 800px 650px;
+
+
 }
-.banner{
-     padding: 30px 30px 30px 150px ;
+
+.banner {
+     padding: 30px 30px 30px 150px;
      display: flex;
      justify-content: space-around;
      align-items: center;
+
 }
-.banner.profile
-{
-     width: 600px;
-     height: 500px;
+
+.profile {
+     width: 500px;
+     height: 600px;
+     border: 1px;
+     border-radius: 50%;
+     position: bottom right;
+
+}
+
+.banner-content {
+     width: 400px;
+     height: 400px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+     padding: 100px;
+     background-color: #fef2e9;
+     margin: 80px 0;
+}
+
+.section-title {
+     color: #000000;
+     text-align: center;
+     font-size: 35px;
+     font-weight: 700;
+     font-size: 18px;
+}
+
+.section-discription {
+     color: #181818;
+     text-align: center;
+     font-size: 22px;
 }
