@@ -197,3 +197,17 @@ main{
      margin-top: 20px;
      bottom: 5px;
 }
+.footer{
+     margin-top: 100px;
+     padding: 50px;
+     display:flex;
+}
+
+.social-icons{
+     /* width: 100px;
+     height: 100px; */
+}
+.f-img{
+     width: 30px;
+     height: 30px;
+}
