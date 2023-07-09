@@ -130,7 +130,7 @@ main{
 .third-section{
      padding: 60px;
      background-color: #425457;
-     margin: 30px 0;
+     margin: 100px 0;
      color: rgb(0, 0, 0);
      font-size: 18px;
     
@@ -156,8 +156,44 @@ main{
 .skill-description{
      padding: 20px;
 }
+.sec{
+     margin-top: 100px;
+}
+.section-title{
+     font-size: 35px;
+     font-weight: 1000;
+     margin-top: 30px;
+     margin: 0px;
+}
+
+.section-title,.resume-conteiner{
+     color: #f1e0e0;
+     background-color: #3b4e52;
+}
+
 .resume-conteiner{
      display: flex;
+       justify-content: space-around;
+}
+.resume-colum{
      margin-right: 20px;
      padding: 5px;
+     justify-content: space-around;
+
+}
+.resume-item-title{
+     font-size: 20px;
+}
+.resume-item-institute,.resume-item-discri{
+     color:#8f6f6f;
+}
+.resume-colum-title{
+     text-align: center;
+     font-size: 26px;
+     font-weight: bold;
+}
+.download-cv{
+     text-align: center;
+     margin-top: 20px;
+     bottom: 5px;
 }
