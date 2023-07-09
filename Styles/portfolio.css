@@ -156,3 +156,8 @@ main{
 .skill-description{
      padding: 20px;
 }
+.resume-conteiner{
+     display: flex;
+     margin-right: 20px;
+     padding: 5px;
+}
